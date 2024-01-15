@@ -13,6 +13,53 @@
     background: rgba(255, 144, 14, 0.10);
 }
 
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 240px;
+}
+
 nav > h3 {
     color: #131313;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+}
+
+nav  a {
+    text-decoration: none;
+    padding-left: 15px;
+    color: #424242;
+}
+
+/* Banner */
+
+.banner {
+    padding-top: 50px;
+    text-align: center;
+}
+.banner-content {
+    width: 862px;
+    margin: 0 auto;
+}
+
+.banner-tittle {
+    font-size: 4rem;
+    color: #131313;
+    font-weight: 700;
+    padding-bottom: 13px;
+}
+
+.banner-description {
+    color: #727272;
+    font-weight: 400;
+    padding-bottom: 32px;
+}
+.banner-img{
+    padding: 50px 0;
 }
